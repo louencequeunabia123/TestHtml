@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.top-con {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+}
+
+.logo h1 {
+  display: flex;
+  font-size: 2.3em;
+  font-weight: 900;
+  color: black;
+  font-family: sans-serif;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.logo span {
+  color: #0ec597;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 10px;
+  margin-right: 20px;
+}
+.nav ul li a {
+  text-decoration: none;
+  text-align: right;
+  color: black;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+.nav ul li a:hover {
+  color: #0ec597;
+}
+
+.mid-con {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 400px;
+  border: none;
+}
+.mid-logo h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  font-size: 2.5em;
+  color: black;
+  font-family: sans-serif;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.mid-logo span {
+  color: #0ec597;
+}
+
+form {
+  margin-top: 20px;
+  align-items: center;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type='checkbox'] {
+  margin-right: 5px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-top: -23px;
+  margin-bottom: 40px;
+}
+
+.forgot-password a {
+  color: #6c63ff;
+  font-size: 14px;
+}
+
+.signin {
+  background-color: #0ec597;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.signin a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.signin:hover {
+  background-color: #019a82;
+}
