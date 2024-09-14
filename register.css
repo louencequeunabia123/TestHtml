@@ -1,0 +1,132 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+  }
+
+.top-con {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+  }
+  
+.logo h1 {
+    display: flex;
+    font-size: 2.3em;
+    font-weight: 900;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+.logo span {
+    color: #0ec597;
+  }
+  
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 10px;
+    margin-right: 20px;
+  }
+
+.nav ul li a {
+    text-decoration: none;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s ease;
+  }
+
+.nav ul li a:hover {
+    color: #0ec597;
+  }
+  
+.mid-con {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 400px;
+    border: none;
+}
+
+.mid-logo h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 2.5em;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+.mid-logo span {
+    color: #0ec597;
+  }
+  
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+.h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+.button {
+    background-color: #673ab7;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+.button:hover {
+    background-color: #512da8;
+  }
+  
+.login-link {
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+.login-link:hover {
+    text-decoration: underline;
+  }
