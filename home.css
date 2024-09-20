@@ -2,6 +2,27 @@
   position: absolute;
   background-position: cover;
 }
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 10px;
+  margin-right: 20px;
+  float nav-right: 10px;
+}
+.nav ul li a {
+  text-decoration: none;
+  text-align: right;
+  color: black;
+  font-weight: bold;
+  transition: 0.3s ease;
+  float nav-right: 10px ;
+}
+.nav ul li a:hover {
+  color: #0ec597;
+}
 
 .mid-cons {
   display: flex;
