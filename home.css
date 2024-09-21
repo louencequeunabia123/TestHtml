@@ -2,6 +2,26 @@
   position: absolute;
   background-position: cover;
 }
+
+.logo h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+  margin-right: 70px;
+  font-family: Arial Black;
+}
+
+.logo span {
+  color: #28a745;
+}
+
+header{
+  display: flex;
+  justify-content: right;
+  margin-top: -50px;
+
+}
+
 .nav ul {
   list-style-type: none;
   display: flex;
@@ -10,7 +30,6 @@
   font-family: sans-serif;
   padding: 10px;
   margin-right: 20px;
-  float nav-right: 10px;
 }
 .nav ul li a {
   text-decoration: none;
@@ -18,24 +37,24 @@
   color: black;
   font-weight: bold;
   transition: 0.3s ease;
-  float nav-right: 10px ;
 }
 .nav ul li a:hover {
   color: #0ec597;
 }
+
 
 .mid-cons {
   display: flex;
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  width: 80%;
+  width: 70%;
   border: none;
 }
 
 .icon img {
   display: flex;
-  width: 650px;
+  width: 600px;
   margin-left: 60px;
   margin-right: 30px;
 }
