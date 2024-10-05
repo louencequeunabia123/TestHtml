@@ -15,11 +15,10 @@
   color: #28a745;
 }
 
-header{
+header {
   display: flex;
   justify-content: right;
   margin-top: -50px;
-
 }
 
 .nav ul {
@@ -41,7 +40,6 @@ header{
 .nav ul li a:hover {
   color: #0ec597;
 }
-
 
 .mid-cons {
   display: flex;
@@ -106,4 +104,44 @@ header{
 
 .home-button:hover {
   background-color: #019a82;
+}
+@media (max-width: 768px) {
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .mid-cons {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .icon img {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .text {
+    width: auto;
+    margin: 10px auto;
+  }
+
+  .home-button {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo h1 {
+    font-size: 1.5em;
+  }
+
+  .home-button {
+    width: 120px;
+    height: 35px;
+    font-size: 14px;
+  }
 }

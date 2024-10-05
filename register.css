@@ -17,9 +17,7 @@ body {
   top: 0;
   width: 100%;
   background-color: white;
-
 }
-.
 
 .logo h1 {
   font-size: 2em;
@@ -35,7 +33,7 @@ body {
 
 .nav ul {
   display: flex;
-  gap: 20px;
+  gap: 0;
   list-style: none;
 }
 
@@ -58,7 +56,7 @@ body {
 
 .mid-con {
   position: absolute;
-  top: 100px; 
+  top: 100px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -102,9 +100,9 @@ label {
   color: black;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"] {
+input[type='text'],
+input[type='email'],
+input[type='password'] {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
@@ -113,7 +111,7 @@ input[type="password"] {
   font-size: 0.9em;
 }
 
-button[type="submit"] {
+button[type='submit'] {
   width: 100%;
   padding: 10px;
   background-color: #28a745;
@@ -125,7 +123,7 @@ button[type="submit"] {
   transition: background-color 0.3s ease;
 }
 
-button[type="submit"]:hover {
+button[type='submit']:hover {
   background-color: #218838;
 }
 
@@ -142,4 +140,64 @@ button[type="submit"]:hover {
 
 .login-link a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 256px) {
+  .top-con {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .logo h1 {
+    font-size: 1.5em;
+    margin-right: 0;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 0;
+  }
+
+  .nav ul li a {
+    margin-right: 0;
+  }
+
+  .mid-con {
+    top: 80px;
+  }
+
+  .container {
+    width: 90%;
+    margin: 100px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo h1 {
+    font-size: 1.2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  input[type='text'],
+  input[type='email'],
+  input[type='password'] {
+    font-size: 0.85em;
+  }
+
+  button[type='submit'] {
+    font-size: 0.9em;
+  }
+
+  .login-link {
+    font-size: 0.8em;
+  }
 }

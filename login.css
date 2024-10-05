@@ -27,7 +27,7 @@ body {
 .nav ul {
   list-style-type: none;
   display: flex;
-  gap: 30px;
+  gap: 10px;
   font-weight: bold;
   font-family: sans-serif;
   padding: 10px;
@@ -128,4 +128,51 @@ label {
 
 .signin:hover {
   background-color: #019a82;
+}
+
+@media (max-width: 305px) {
+  .top-con {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 0;
+  }
+
+  .mid-con {
+    width: 90%;
+    margin-top: 30px;
+  }
+
+  .mid-logo h1 {
+    font-size: 2em;
+  }
+
+  input[type='text'],
+  input[type='email'],
+  input[type='password'] {
+    font-size: 14px;
+  }
+
+  .signin {
+    font-size: 14px;
+  }
+
+  @media (max-width: 1000px) {
+    .logo h1 {
+      font-size: 1.8em;
+      margin-left: 10px;
+    }
+
+    .nav ul {
+      gap: 5px;
+    }
+
+    .signin {
+      padding: 8px;
+    }
+  }
 }
